@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Dr Jack King's research webpages</title>
+    <!-- note relative link -->
+    <link href="css/jrcking_style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="sidebar-cont">
+      <div class="sidebar1">
+	<a href="https://www.mace.manchester.ac.uk/">
+	<img src="img/banner2.png" class="c" width="80%"></a>
+      </div>
+      <div class="sidebar">
+	<sb-text>
+	  CONTENTS:
+	  <ol>
+	  <li><a href="default.html">HOME</a>
+	  <li><a href="cv.html">My academic background</a>
+	  <li><a href="current.html">My current research</a>
+	  <li><a href="pics.html">Interesting fluid dynamics images and videos</a>
+	  <li><a href="contact.html">How to contact me</a>
+	  </ol>
+	</sb-text>
+      </div>
+    </div>
+    <!-- HERE GOES THE CONTENT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <div class="content">
+      <h3> Hello, and welcome to my webpage!</h3>
+      <p>
+        On this webpage you will find lots of interesting information about my research...
+	<br>
+	</br>
+	I am testing
+	<br>
+	the
+	<br></br>
+	scrolling
+	<br>
+	<br>
+	<br>
+	does it
+	<br>
+	<br>
+	work?
+	  </p>
+      <img src="img/std.jpg" class="c" width="60%">
+
+    </div>
+  
+  </body>
+</html>
+
