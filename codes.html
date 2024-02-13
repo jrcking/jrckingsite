@@ -50,13 +50,13 @@
           </ul>      
 
        <div class="sb"><hr></div>      
-      <h2><a href="https://github.com/jrcking/flamefd">FLAMEFD</a></h2>
-      This code is designed for two-dimensional direct numerical simulations (DNS) of flames. It uses eighth-order central finite differences and a third-order explicit Runge-Kutta time-stepping scheme, alongside LABFM-based filters. It has been tested for single-step and multi-step (21step H2 and 25 step CH4) reaction mechanisms. It is not optimised, but is sufficient for simulations for flame-vortex interactions, and should scale reasonably well up to 1000 cores.
+      <h2><a href="https://github.com/jrcking/labfm">LABFM</a></h2>
+      A code for generating high-order difference operators on unstructured node sets with the Local Anisotropic Basis Function Method (LABFM). This toy code was used for the convergence and stability analysis in <a href="https://doi.org/10.1016/j.jcp.2020.109549">[1]</a><a href="https://doi.org/10.1016/j.jcp.2021.110760">[2]</a>
       	  <ul>
 	  <li>Language: Fortran
-	  <li>Acceleration: OpenMP+MPI
-	  <li>Compiler: gfortran/mpifort
-	  <li>non-standard libraries: None
+	  <li>Acceleration: OpenMP
+	  <li>Compiler: gfortran
+	  <li>non-standard libraries: open-blas
 	  <li>Output file format: ascii-->vtk
           </ul>      
 
