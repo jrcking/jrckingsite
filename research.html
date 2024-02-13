@@ -38,29 +38,29 @@
         <div class="sb"><hr></div>	
 	<h2>High-order meshless methods</h2>
         <img src="img/labfm2.png" class="r" width="30%">		
-	The Local Anisotropic Basis Function Method (LABFM) <a href="https://doi.org/10.1016/j.jcp.2020.109549">[1]</a><a href="https://doi.org/10.1016/j.jcp.2021.110760">[2]</a> is a mesh-free method which allows arbitrarily high-order (e.g. 10th) discretisations on an unstructured node set. It combines the geometric flexibility of other mesh-free methods (such as SPH, see below), with high-order finite differences. We have implementations of LABFM for a range of different flow types, including turbulent reacting flows and viscoelastic flows. Much of the research of the group involves the development and use of LABFM for direct numerical simulations (DNS) of turbulent combustion.
+	The Local Anisotropic Basis Function Method (LABFM) (<a href="https://doi.org/10.1016/j.jcp.2020.109549">King, Lind & Nasar (2020)</a> and <a href="https://doi.org/10.1016/j.jcp.2021.110760">King & Lind (2022)</a>) is a mesh-free method which allows arbitrarily high-order (e.g. 10th) discretisations on an unstructured node set. It combines the geometric flexibility of other mesh-free methods (such as SPH, see below), with high-order finite differences. We have implementations of LABFM for a range of different flow types, including turbulent reacting flows and viscoelastic flows. Much of the research of the group involves the development and use of LABFM for direct numerical simulations (DNS) of turbulent combustion.
         <img src="img/labfm1.png" class="l" width="60%">		
        
         <div class="sb"><hr></div>
         
 	<h2>Combustion in complex geometries</h2>
-	Using LABFM as the basis of a direct numerical simulation framework for simulations of turbulent combustion in complex geometries<a href="https://arxiv.org/abs/2310.02200">[3]</a>. For example, the image below shows contours of heat release rate for during the ignition of hydrogen in a porous geometry. More to follow in due course.
+	Using LABFM as the basis of a direct numerical simulation framework for simulations of turbulent combustion in complex geometries (<a href="https://doi.org/10.1016/j.cma.2024.116762">King (2024)</a>). For example, the image below shows contours of heat release rate for during the ignition of hydrogen in a porous geometry. More to follow in due course.
         <img src="img/h2ignition.png" class="l" width="60%">			
         <div class="sb"><hr></div>
         
         <h2>Viscoelastic flow simulation and elastic instabilities</h2>
         <img src="img/ve_klmgrv2.png" class="r" width="30%">	
-        Starting with our work on smoothed particle hydrodynamics <a href="https://doi.org/10.1016/j.jnnfm.2021.104556">[4]</a> we have developed several mesh-free solvers for viscoelastic flows, including LABFM-based <a href="https://arxiv.org/abs/2312.12996">[5]</a>, with options for EVSS, log-conformation and Cholesky decomposition formulations. We are now using these numerical methods to study fundamental elastic instabilities and symmetry breaking flows in porous geometries.
+        Starting with our work on smoothed particle hydrodynamics (<a href="https://doi.org/10.1016/j.jnnfm.2021.104556">King & Lind (2021)</a>) we have developed several mesh-free solvers for viscoelastic flows, including LABFM-based (<a href="https://arxiv.org/abs/2312.12996">King & Lind (2023)</a>), with options for EVSS, log-conformation and Cholesky decomposition formulations. We are now using these numerical methods to study fundamental elastic instabilities and symmetry breaking flows in porous geometries.
         <img src="img/drops.png" class="l" width="30%">	        
         <div class="sb"><hr></div>
 	<h2>Smoothed Particle Hydrodynamics for bubbly waves</h2>
         <img src="img/nw1.jpg" class="r" width="20%">	
-	This project involved the development of a multiphase Smoothed Particle Hydrodynamics framework to simulate air-bubble entrainment in breaking waves. Using a simple mechanistic model to relate turbulent dissipation rate to bubble entrainement, we are able to accurately reproduce the bubble size distribution under a breaking wave, in a simulation which has a remarkably low computational cost. More details in this JFM article<a href="https://doi.org/10.1017/jfm.2023.649">[6]</a>. 
+	This project involved the development of a multiphase Smoothed Particle Hydrodynamics framework to simulate air-bubble entrainment in breaking waves. Using a simple mechanistic model to relate turbulent dissipation rate to bubble entrainement, we are able to accurately reproduce the bubble size distribution under a breaking wave, in a simulation which has a remarkably low computational cost. More details in this JFM article <a href="https://doi.org/10.1017/jfm.2023.649">King et al. (2023)</a>. 
 
         <div class="sb"><hr></div>	
 	<h2>The Kaye effect</h2>
         <img src="img/kaye.png" class="r" width="50%">	
-        Sometimes when a jet of shampoo is poured from a bottle it appears to leap on landing. This phenomenon, called the <a href="https://en.wikipedia.org/wiki/Kaye_effect">Kaye effect</a> had baffled rheologists for half a century. One theory proposed that the jet slipped on a thin layer due to the shear-thinning nature of the liquid. Another theory involed the jet slipping on a very thin air layer. We performed experiments in a vacuum chamber <a href="https://doi.org/10.1016/j.jnnfm.2019.104165">[7]</a>, showing that air is a key ingredient for the effect, confirming the air layer theory. We also developed a simple mechanistic model which explained why the effect occurs in some fluids and not others, showing that elasticity is crucial, whilst shear thinning plays only a small role. 	
+        Sometimes when a jet of shampoo is poured from a bottle it appears to leap on landing. This phenomenon, called the <a href="https://en.wikipedia.org/wiki/Kaye_effect">Kaye effect</a> had baffled rheologists for half a century. One theory proposed that the jet slipped on a thin layer due to the shear-thinning nature of the liquid. Another theory involed the jet slipping on a very thin air layer. We performed experiments in a vacuum chamber (<a href="https://doi.org/10.1016/j.jnnfm.2019.104165">King & Lind (2019)</a>), showing that air is a key ingredient for the effect, confirming the air layer theory. We also developed a simple mechanistic model which explained why the effect occurs in some fluids and not others, showing that elasticity is crucial, whilst shear thinning plays only a small role. 	
  	
         <div class="sb"><hr></div>		
     </div>
